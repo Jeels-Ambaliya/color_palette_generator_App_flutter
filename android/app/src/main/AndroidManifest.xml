@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.color_palette_generator_app_flutter">
+    package="com.jeels.color_palette_generator_app_flutter">
    <application
         android:label="color_palette_generator_app_flutter"
         android:name="${applicationName}"
