@@ -32,10 +32,6 @@ class _My_AppState extends State<My_App> {
           debugShowCheckedModeBanner: false,
           theme: ThemeData.light(useMaterial3: true),
           darkTheme: ThemeData.dark(useMaterial3: true),
-          themeMode:
-              (Provider.of<ThemeProvider>(context).themeModal.isDark == false)
-                  ? ThemeMode.light
-                  : ThemeMode.dark,
           initialRoute: 'Splash_Screen',
           routes: {
             'Home_Screen': (context) => const Home_Screen(),
